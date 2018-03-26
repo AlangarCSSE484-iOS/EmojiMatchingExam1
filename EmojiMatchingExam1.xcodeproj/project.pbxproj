@@ -12,6 +12,14 @@
 		0A00DE09206828B300E97F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A00DE07206828B300E97F68 /* Main.storyboard */; };
 		0A00DE0B206828B300E97F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A00DE0A206828B300E97F68 /* Assets.xcassets */; };
 		0A00DE0E206828B300E97F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A00DE0C206828B300E97F68 /* LaunchScreen.storyboard */; };
+		0A00DE1D206829F400E97F68 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A00DE16206829F300E97F68 /* Icon@2x.png */; };
+		0A00DE1E206829F400E97F68 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A00DE17206829F300E97F68 /* Icon-72.png */; };
+		0A00DE1F206829F400E97F68 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A00DE18206829F300E97F68 /* Icon.png */; };
+		0A00DE20206829F400E97F68 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A00DE19206829F300E97F68 /* Icon-72@2x.png */; };
+		0A00DE21206829F400E97F68 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A00DE1A206829F400E97F68 /* Icon-60.png */; };
+		0A00DE22206829F400E97F68 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A00DE1B206829F400E97F68 /* Icon-Small-50.png */; };
+		0A00DE23206829F400E97F68 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A00DE1C206829F400E97F68 /* Icon-Small-50@2x.png */; };
+		0ACA254C206882B600648233 /* MatchingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACA254B206882B600648233 /* MatchingGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		0A00DE0A206828B300E97F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A00DE0D206828B300E97F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A00DE0F206828B300E97F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A00DE16206829F300E97F68 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0A00DE17206829F300E97F68 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		0A00DE18206829F300E97F68 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0A00DE19206829F300E97F68 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		0A00DE1A206829F400E97F68 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		0A00DE1B206829F400E97F68 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		0A00DE1C206829F400E97F68 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		0ACA254B206882B600648233 /* MatchingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,30 @@
 		0A00DE02206828B300E97F68 /* EmojiMatchingExam1 */ = {
 			isa = PBXGroup;
 			children = (
+				0A00DE15206829B900E97F68 /* Supporting */,
 				0A00DE03206828B300E97F68 /* AppDelegate.swift */,
 				0A00DE05206828B300E97F68 /* ViewController.swift */,
 				0A00DE07206828B300E97F68 /* Main.storyboard */,
 				0A00DE0A206828B300E97F68 /* Assets.xcassets */,
 				0A00DE0C206828B300E97F68 /* LaunchScreen.storyboard */,
 				0A00DE0F206828B300E97F68 /* Info.plist */,
+				0ACA254B206882B600648233 /* MatchingGame.swift */,
 			);
 			path = EmojiMatchingExam1;
+			sourceTree = "<group>";
+		};
+		0A00DE15206829B900E97F68 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				0A00DE1A206829F400E97F68 /* Icon-60.png */,
+				0A00DE17206829F300E97F68 /* Icon-72.png */,
+				0A00DE19206829F300E97F68 /* Icon-72@2x.png */,
+				0A00DE1B206829F400E97F68 /* Icon-Small-50.png */,
+				0A00DE1C206829F400E97F68 /* Icon-Small-50@2x.png */,
+				0A00DE18206829F300E97F68 /* Icon.png */,
+				0A00DE16206829F300E97F68 /* Icon@2x.png */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +155,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A00DE20206829F400E97F68 /* Icon-72@2x.png in Resources */,
+				0A00DE1F206829F400E97F68 /* Icon.png in Resources */,
+				0A00DE23206829F400E97F68 /* Icon-Small-50@2x.png in Resources */,
+				0A00DE21206829F400E97F68 /* Icon-60.png in Resources */,
+				0A00DE22206829F400E97F68 /* Icon-Small-50.png in Resources */,
 				0A00DE0E206828B300E97F68 /* LaunchScreen.storyboard in Resources */,
+				0A00DE1E206829F400E97F68 /* Icon-72.png in Resources */,
+				0A00DE1D206829F400E97F68 /* Icon@2x.png in Resources */,
 				0A00DE0B206828B300E97F68 /* Assets.xcassets in Resources */,
 				0A00DE09206828B300E97F68 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +177,7 @@
 			files = (
 				0A00DE06206828B300E97F68 /* ViewController.swift in Sources */,
 				0A00DE04206828B300E97F68 /* AppDelegate.swift in Sources */,
+				0ACA254C206882B600648233 /* MatchingGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
