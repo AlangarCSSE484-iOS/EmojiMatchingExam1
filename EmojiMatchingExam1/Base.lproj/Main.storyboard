@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,13 +16,13 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EmojiMatchingExam1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IjI-iw-e6w">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="834" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="IZh-r6-JL6">
+                                    <navigationItem id="IZh-r6-JL6">
                                         <barButtonItem key="leftBarButtonItem" title="New Game " id="Yrv-HA-7z8" userLabel="New Game Button">
                                             <connections>
                                                 <action selector="pressedNewGame:" destination="BYZ-38-t0r" id="oQ8-PY-HKZ"/>
@@ -32,15 +32,197 @@
                                 </items>
                             </navigationBar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ozg-TC-wZ8" userLabel="Usable Area">
-                                <rect key="frame" x="0.0" y="20" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="64" width="834" height="1048"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G5r-GQ-F5V" userLabel="Game Board">
-                                        <rect key="frame" x="20" y="92" width="335" height="419"/>
+                                        <rect key="frame" x="137" y="174" width="560" height="700"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ngT-Dc-hsa">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="700"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ZWG-GS-eKn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="560" height="140"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqS-jd-CTV" userLabel="0">
+                                                                <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8E-Wh-Qvn" userLabel="1">
+                                                                <rect key="frame" x="140" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GrO-L4-IaY" userLabel="2">
+                                                                <rect key="frame" x="280" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcP-xG-oVr" userLabel="3">
+                                                                <rect key="frame" x="420" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1QW-5N-jZ7">
+                                                        <rect key="frame" x="0.0" y="140" width="560" height="140"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXw-tr-InZ" userLabel="4">
+                                                                <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAN-JW-AxQ" userLabel="5">
+                                                                <rect key="frame" x="140" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yl-aV-yVg" userLabel="6">
+                                                                <rect key="frame" x="280" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzh-RT-BJf" userLabel="7">
+                                                                <rect key="frame" x="420" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                        </subviews>
+                                                        <viewLayoutGuide key="safeArea" id="jxG-K8-Xav"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xkx-ao-wsY">
+                                                        <rect key="frame" x="0.0" y="280" width="560" height="140"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YvU-S2-PXa" userLabel="8">
+                                                                <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUy-Yy-t9G" userLabel="9">
+                                                                <rect key="frame" x="140" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ca7-ME-LBt" userLabel="10">
+                                                                <rect key="frame" x="280" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJJ-uI-qlC" userLabel="11">
+                                                                <rect key="frame" x="420" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                        </subviews>
+                                                        <viewLayoutGuide key="safeArea" id="FIi-NU-R20"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nmk-RQ-ggg">
+                                                        <rect key="frame" x="0.0" y="420" width="560" height="140"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOF-wj-PAh" userLabel="12">
+                                                                <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6e-bq-XDx" userLabel="13">
+                                                                <rect key="frame" x="140" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emo-YU-RWg" userLabel="14">
+                                                                <rect key="frame" x="280" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7N-kU-c99" userLabel="15">
+                                                                <rect key="frame" x="420" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                        </subviews>
+                                                        <viewLayoutGuide key="safeArea" id="8fY-iR-LwG"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vdE-Aa-CeK">
+                                                        <rect key="frame" x="0.0" y="560" width="560" height="140"/>
+                                                        <subviews>
+                                                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7t-ef-RL6" userLabel="16">
+                                                                <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yk2-O5-ERO" userLabel="17">
+                                                                <rect key="frame" x="140" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hem-Ua-AhA" userLabel="18">
+                                                                <rect key="frame" x="280" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozx-N3-Vmj" userLabel="19">
+                                                                <rect key="frame" x="420" y="0.0" width="140" height="140"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <state key="normal" title="🌈">
+                                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                </state>
+                                                            </button>
+                                                        </subviews>
+                                                        <viewLayoutGuide key="safeArea" id="Spz-a5-oDc"/>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="ngT-Dc-hsa" firstAttribute="width" secondItem="G5r-GQ-F5V" secondAttribute="width" id="1g5-t4-B0F"/>
                                             <constraint firstAttribute="width" constant="560" id="1sn-5I-qbO"/>
+                                            <constraint firstAttribute="trailing" secondItem="ngT-Dc-hsa" secondAttribute="trailing" id="7dG-Zw-0G7"/>
+                                            <constraint firstItem="ngT-Dc-hsa" firstAttribute="leading" secondItem="G5r-GQ-F5V" secondAttribute="leading" id="AgH-LF-PlE"/>
+                                            <constraint firstItem="ngT-Dc-hsa" firstAttribute="height" secondItem="G5r-GQ-F5V" secondAttribute="height" id="Eu2-Xh-QMM"/>
                                             <constraint firstAttribute="height" constant="700" id="KpE-av-jFp"/>
+                                            <constraint firstAttribute="bottom" secondItem="ngT-Dc-hsa" secondAttribute="bottom" id="WTc-kX-LUm"/>
                                             <constraint firstAttribute="width" secondItem="G5r-GQ-F5V" secondAttribute="height" multiplier="4:5" id="Zq1-uC-MS3"/>
+                                            <constraint firstItem="ngT-Dc-hsa" firstAttribute="top" secondItem="G5r-GQ-F5V" secondAttribute="top" id="beT-uC-Svp"/>
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -97,7 +279,10 @@
                                 </variation>
                             </view>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GUM-Lo-hYu">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="1067" width="834" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="q6R-al-D4F"/>
+                                </constraints>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="yO2-8Y-BUJ"/>
                                     <barButtonItem title="New Game" id="Fqd-lO-a00">
@@ -106,6 +291,16 @@
                                         </connections>
                                     </barButtonItem>
                                 </items>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="q6R-al-D4F"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="q6R-al-D4F"/>
+                                    </mask>
+                                </variation>
                             </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -170,6 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="73.913043478260875" y="40.760869565217398"/>
         </scene>
     </scenes>
 </document>
