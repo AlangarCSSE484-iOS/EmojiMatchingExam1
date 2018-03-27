@@ -24,7 +24,7 @@ class MatchingGame: CustomStringConvertible{
     let allEmojiCharacters = Array("🚁🐴🐇🐢🐱🐌🐒🐞🐫🐠🐬🐩🐶🐰🐼⛄🌸⛅🐸🐳❄❤🐝🌺🌼🌽🍌🍎🍡🏡🌻🍉🍒🍦👠🐧👛🐛🐘🐨😃🐻🐹🐲🐊🐙")
     
     var description: String {
-        return getGameString()
+        return "\(getGameString()) \n"
     }
     
     var firstClickIndex: Int?
@@ -97,12 +97,13 @@ class MatchingGame: CustomStringConvertible{
         
         cardStates[index] = .shown
         if (firstClickIndex == nil) {
-            self.gameState = .waitingSecond
             firstClickIndex = index
+            self.gameState = .waitingSecond
+            
         }
         else if (secondClickIndex == nil) {
-            self.gameState = .complete
             secondClickIndex = index
+            self.gameState = .complete
         }
         
         
@@ -126,7 +127,7 @@ class MatchingGame: CustomStringConvertible{
     
     func getGameString () -> String{
         //found on stack overflow
-        return String((String(cards)).enumerated().map{$0 > 0 && $0 % 5 == 0 ? ["\n", $1] : [$1]}.joined())
+        return String((String(cards)).enumerated().map{$0 > 0 && $0 % 4 == 0 ? ["\n", $1] : [$1]}.joined())
         
     }
     func delay(_ delay:Double, closure:@escaping ()->()) {
