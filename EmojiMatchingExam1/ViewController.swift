@@ -10,7 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var gameButtons: [UIButton]!
+    
+    
     @IBAction func pressedNewGame(_ sender: Any) {
+        newGame()
+    }
+    
+    @IBAction func pressedGameButton(_ sender: Any) {
     }
     
     
@@ -22,6 +29,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func newGame() {
+        
     }
 
 

@@ -49,6 +49,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BvC-zh-ckk"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8E-Wh-Qvn" userLabel="1">
                                                                 <rect key="frame" x="140" y="0.0" width="140" height="140"/>
@@ -56,6 +59,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="By3-Ee-mAv"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GrO-L4-IaY" userLabel="2">
                                                                 <rect key="frame" x="280" y="0.0" width="140" height="140"/>
@@ -63,6 +69,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UYn-N8-mnc"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcP-xG-oVr" userLabel="3">
                                                                 <rect key="frame" x="420" y="0.0" width="140" height="140"/>
@@ -70,6 +79,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H6s-f1-Kgt"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
@@ -82,6 +94,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="82E-4d-NIm"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAN-JW-AxQ" userLabel="5">
                                                                 <rect key="frame" x="140" y="0.0" width="140" height="140"/>
@@ -89,6 +104,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SRT-WE-L1j"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yl-aV-yVg" userLabel="6">
                                                                 <rect key="frame" x="280" y="0.0" width="140" height="140"/>
@@ -96,6 +114,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wXP-Bj-MhW"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzh-RT-BJf" userLabel="7">
                                                                 <rect key="frame" x="420" y="0.0" width="140" height="140"/>
@@ -103,6 +124,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cTZ-Ht-dxT"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <viewLayoutGuide key="safeArea" id="jxG-K8-Xav"/>
@@ -116,6 +140,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qe0-F8-cOt"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUy-Yy-t9G" userLabel="9">
                                                                 <rect key="frame" x="140" y="0.0" width="140" height="140"/>
@@ -123,6 +150,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gIR-TF-5sw"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ca7-ME-LBt" userLabel="10">
                                                                 <rect key="frame" x="280" y="0.0" width="140" height="140"/>
@@ -130,6 +160,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TPw-u7-2JW"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJJ-uI-qlC" userLabel="11">
                                                                 <rect key="frame" x="420" y="0.0" width="140" height="140"/>
@@ -137,6 +170,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rmf-QY-Mrr"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <viewLayoutGuide key="safeArea" id="FIi-NU-R20"/>
@@ -150,6 +186,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vlE-Cv-rGP"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6e-bq-XDx" userLabel="13">
                                                                 <rect key="frame" x="140" y="0.0" width="140" height="140"/>
@@ -157,6 +196,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ygt-DM-qeK"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emo-YU-RWg" userLabel="14">
                                                                 <rect key="frame" x="280" y="0.0" width="140" height="140"/>
@@ -164,6 +206,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GAR-w0-ltm"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7N-kU-c99" userLabel="15">
                                                                 <rect key="frame" x="420" y="0.0" width="140" height="140"/>
@@ -171,6 +216,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fse-uK-3Td"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <viewLayoutGuide key="safeArea" id="8fY-iR-LwG"/>
@@ -184,6 +232,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ChC-B6-bRJ"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yk2-O5-ERO" userLabel="17">
                                                                 <rect key="frame" x="140" y="0.0" width="140" height="140"/>
@@ -191,6 +242,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lwp-3B-OLb"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hem-Ua-AhA" userLabel="18">
                                                                 <rect key="frame" x="280" y="0.0" width="140" height="140"/>
@@ -198,6 +252,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gur-7g-fWf"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozx-N3-Vmj" userLabel="19">
                                                                 <rect key="frame" x="420" y="0.0" width="140" height="140"/>
@@ -205,6 +262,9 @@
                                                                 <state key="normal" title="🌈">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="pressedGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CGb-3Q-yHO"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <viewLayoutGuide key="safeArea" id="Spz-a5-oDc"/>
@@ -362,6 +422,28 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outletCollection property="gameButtons" destination="PqS-jd-CTV" collectionClass="NSMutableArray" id="fQ4-G2-qrC"/>
+                        <outletCollection property="gameButtons" destination="v8E-Wh-Qvn" collectionClass="NSMutableArray" id="Emw-eb-rLd"/>
+                        <outletCollection property="gameButtons" destination="GrO-L4-IaY" collectionClass="NSMutableArray" id="RZU-NV-LhS"/>
+                        <outletCollection property="gameButtons" destination="qcP-xG-oVr" collectionClass="NSMutableArray" id="LIk-VA-73l"/>
+                        <outletCollection property="gameButtons" destination="LXw-tr-InZ" collectionClass="NSMutableArray" id="p3R-H9-mGW"/>
+                        <outletCollection property="gameButtons" destination="sAN-JW-AxQ" collectionClass="NSMutableArray" id="gxw-cY-UFr"/>
+                        <outletCollection property="gameButtons" destination="9yl-aV-yVg" collectionClass="NSMutableArray" id="AXW-sn-hXm"/>
+                        <outletCollection property="gameButtons" destination="Wzh-RT-BJf" collectionClass="NSMutableArray" id="psi-7S-Y8d"/>
+                        <outletCollection property="gameButtons" destination="YvU-S2-PXa" collectionClass="NSMutableArray" id="Pdv-ec-O9N"/>
+                        <outletCollection property="gameButtons" destination="CUy-Yy-t9G" collectionClass="NSMutableArray" id="gRF-g7-Ucp"/>
+                        <outletCollection property="gameButtons" destination="Ca7-ME-LBt" collectionClass="NSMutableArray" id="Osr-6q-xw8"/>
+                        <outletCollection property="gameButtons" destination="UJJ-uI-qlC" collectionClass="NSMutableArray" id="5gX-s6-Ytz"/>
+                        <outletCollection property="gameButtons" destination="qOF-wj-PAh" collectionClass="NSMutableArray" id="4lU-LG-BGo"/>
+                        <outletCollection property="gameButtons" destination="S6e-bq-XDx" collectionClass="NSMutableArray" id="I1O-Mt-4eT"/>
+                        <outletCollection property="gameButtons" destination="emo-YU-RWg" collectionClass="NSMutableArray" id="wh6-Pa-L6T"/>
+                        <outletCollection property="gameButtons" destination="s7N-kU-c99" collectionClass="NSMutableArray" id="IpS-Wm-q62"/>
+                        <outletCollection property="gameButtons" destination="J7t-ef-RL6" collectionClass="NSMutableArray" id="pFe-st-rF3"/>
+                        <outletCollection property="gameButtons" destination="yk2-O5-ERO" collectionClass="NSMutableArray" id="ohr-OB-SnC"/>
+                        <outletCollection property="gameButtons" destination="Hem-Ua-AhA" collectionClass="NSMutableArray" id="dcA-WC-cfZ"/>
+                        <outletCollection property="gameButtons" destination="ozx-N3-Vmj" collectionClass="NSMutableArray" id="atf-cM-E51"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
