@@ -73,7 +73,7 @@ class MatchingGame: CustomStringConvertible{
                 emojiSymbolsUsed.append(symbol)
             }
         }
-        emojiSymbolsUsed
+        //emojiSymbolsUsed
         self.cards = emojiSymbolsUsed + emojiSymbolsUsed
         self.cards.shuffle()
         
